@@ -1,0 +1,28 @@
+{
+    "name": "alexeevdv/yii2-telegram",
+    "description": "Telegram component for Yii2",
+    "keywords": ["yii2", "telegram", "component"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/alexeevdv/yii2-telegram",
+        "issues": "https://github.com/alexeevdv/yii2-telegram/issues"
+    },
+    "authors": [
+        {
+            "name": "alexeevdv",
+            "homepage": "https://alexeevdv.ru/",
+            "email": "mail@alexeevdv.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "alexeevdv/telegram-cli-client": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexeevdv\\telegram\\": ""
+        }
+    }
+}
